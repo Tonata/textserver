@@ -22,7 +22,8 @@ libraryDependencies ++= Seq(
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
   "com.websudos"  %% "phantom-dsl" % PhantomVersion,
   "com.websudos" % "phantom-reactivestreams_2.11" % PhantomVersion,
-  "com.chuusai" %% "shapeless" % "2.2.5" )
+  "com.chuusai" %% "shapeless" % "2.2.5",
+  "org.reactivemongo" %% "play2-reactivemongo" % "0.11.14")
 
 libraryDependencies += "com.github.nscala-time" % "nscala-time_2.11" % "2.12.0"
 
@@ -85,6 +86,7 @@ libraryDependencies += "com.github.romix.akka" %% "akka-kryo-serialization" % "0
 // https://mvnrepository.com/artifact/com.esotericsoftware.kryo/kryo
 
 libraryDependencies += "com.esotericsoftware.kryo" % "kryo" % "2.24.0"
+
 
 // https://mvnrepository.com/artifact/com.github.nscala-time/nscala-time_2.11
 
